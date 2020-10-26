@@ -62,3 +62,18 @@ export const Subtitle = styled.p`
   line-height: 24px;
   margin-bottom: 35px;
 `;
+
+export const ImgWrapper = styled.div`
+  max-width: 555px;
+  display: flex;
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+`;
+
+export const Img = styled.img`
+  max-width: 100%;
+  max-height: 500px;
+  padding-right: 0;
+  border: 0;
+  vertical-align: "middle";
+  display: inline-block;
+`;
