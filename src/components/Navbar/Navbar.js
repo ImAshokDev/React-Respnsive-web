@@ -53,10 +53,10 @@ const Navbar = () => {
                 <NavLink to="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/">Services</NavLink>
+                <NavLink to="/services">Services</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/">Products</NavLink>
+                <NavLink to="/products">Products</NavLink>
               </NavItem>
 
               <NavItemBtn>
