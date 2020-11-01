@@ -20,6 +20,7 @@ const Navbar = () => {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  const closeSideNav = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -40,7 +41,7 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/">
+            <NavLogo to="/" onClick={closeSideNav}>
               <NavIcon />
               TECH
             </NavLogo>
